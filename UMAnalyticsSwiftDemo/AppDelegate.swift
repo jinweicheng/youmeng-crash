@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UMCommonLogSwift.setUpUMCommonLogManager()
         UMCommonSwift.setLogEnabled(bFlag: true)
-        UMCommonSwift.initWithAppkey(appKey: "6093ed0cc9aacd3bd4c4cd72", channel: "App Store")
+        UMCommonSwift.initWithAppkey(appKey: "appkey", channel: "App Store")
                 
         
         let screen = UIScreen.main.bounds
